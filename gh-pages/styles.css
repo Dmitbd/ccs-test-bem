@@ -574,7 +574,7 @@ template {
 }
 
 .order {
-  background: url(7e0c390ecb87485a8591.png);
+  background: url(../src/blocks/order/main-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -700,7 +700,7 @@ template {
 
 .ordering {
   color: white;
-  background-image: url(fcf1a2ac7febce383623.png);
+  background-image: url(../src/blocks/ordering/images/BG.png);
   padding-top: 7.5rem;
   padding-bottom: 5rem;
 }
