@@ -1,0 +1,28 @@
+.ordering {
+  color: #ffff;
+  background-image: url('/src/blocks/ordering/images/BG.png');
+  padding-top: 7.5rem;
+  padding-bottom: 5rem;
+
+  span {
+    color: #3E9CDC;
+  }
+}
+
+@media (max-width:1199px) {
+  .ordering {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width:979px) {
+  .ordering {
+    padding-top: 3rem;
+  }
+}
+
+@media (max-width:480px) {
+  .ordering {
+    padding-bottom: 3rem;
+  }
+}

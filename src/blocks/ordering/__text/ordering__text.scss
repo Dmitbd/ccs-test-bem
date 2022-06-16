@@ -1,0 +1,19 @@
+.ordering__text {
+  text-align: center;
+  font-size: 1rem;
+  line-height: 1.2rem;
+  margin: 1.2rem 0 0;
+}
+
+@media (max-width:840px) {
+  .ordering__text {
+    padding: 0 0.2rem;
+    margin-top: 0.3rem;
+  }
+}
+
+@media (max-width:480px) {
+  .ordering__text {
+    padding-bottom: 0.3rem;
+  }
+}

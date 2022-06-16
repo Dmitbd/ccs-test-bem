@@ -1,0 +1,13 @@
+.ordering__subtitle {
+  text-align: center;
+  font-size: 1.1rem;
+  font-weight: 1.3rem;
+  margin: 1.8rem 0 0 0;
+  color: #BBBBBB;
+}
+
+@media (max-width:480px) {
+  .ordering__subtitle {
+    margin-top: 0.5rem;
+  }
+}

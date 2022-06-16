@@ -1,0 +1,9 @@
+.order__button_blue {
+  background-color: #3E9CDC;
+  border: 1px solid #ffffff;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #3E9CDC;
+  }
+}

@@ -1,0 +1,18 @@
+.ordering__element-image-container {
+  width: 6.2rem;
+  height: 6.2rem;
+  background-color: #3E9CDC;
+  border: 5px solid #286690;
+  box-sizing: border-box;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+@media (max-width:840px) {
+  .ordering__element-image-container {
+    width: 5.2rem;
+    height: 5.2rem;
+  }
+}

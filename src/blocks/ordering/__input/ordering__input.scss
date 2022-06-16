@@ -1,0 +1,35 @@
+.ordering__input {
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid #FFFFFF;
+  border-radius: 3px;
+  width: 22.3rem;
+  height: 2.75rem;
+  font-size: 1.12rem;
+  padding-left: 0.6rem;
+
+  &:focus {
+    border: 1px solid #3E9CDC;
+  }
+
+  &:active {
+    border: 1px solid #3E9CDC;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #3E9CDC;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #272733;
+  }
+
+  &::-moz-placeholder {
+    color: #272733;
+  }
+
+  &:first-of-type {
+    margin-right: 1.8rem;
+  }
+
+}

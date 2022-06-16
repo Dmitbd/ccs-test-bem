@@ -1,0 +1,67 @@
+@import url(../vendor/normalize.scss);
+
+@import url(../vendor/fonts/fonts.scss);
+
+@import '../blocks/body/body.scss';
+
+@import '../blocks/header/header.scss';
+@import '../blocks/header/__image/header__image.scss';
+@import '../blocks/header/__navigate/header__navigate.scss';
+@import '../blocks/header/__link/header__link.scss';
+@import '../blocks/header/__link/_active/header__link_active.scss';
+
+@import '../blocks/order/order.scss';
+@import '../blocks/order/__information/order__information.scss';
+@import '../blocks/order/__title/order__title.scss';
+@import '../blocks/order/__subtitle/order__subtitle.scss';
+@import '../blocks/order/__button-container/order__button-container.scss';
+@import '../blocks/order/__button/order__button.scss';
+@import '../blocks/order/__button/_blue/order__button_blue.scss';
+@import '../blocks/order/__button/_white/order__button_white.scss';
+
+@import '../blocks/ordering/ordering.scss';
+@import '../blocks/ordering/__title/ordering__title.scss';
+@import '../blocks/ordering/__subtitle/ordering__subtitle.scss';
+@import '../blocks/ordering/__elements/ordering__elements.scss';
+@import '../blocks/ordering/__element/ordering__element.scss';
+@import '../blocks/ordering/__element-image-container/ordering__element-image-container.scss';
+@import '../blocks/ordering/__element-image/ordering__element-image.scss';
+@import '../blocks/ordering/__element-bond/ordering__element-bond.scss';
+@import '../blocks/ordering/__text/ordering__text.scss';
+
+@import '../blocks/form/form.scss';
+@import '../blocks/form/__inputs-container/form__inputs-container.scss.scss';
+@import '../blocks//form/__input-drop-down/form__input-drop-down.scss';
+@import '../blocks/form/__input-drop-down-text/form__input-drop-down-text.scss';
+@import '../blocks/form/__input-drop-down/_dark/form__input-drop-down_dark.scss';
+@import '../blocks/form/__input/form__input.scss';
+@import '../blocks/form/__submit-button/form__submit-button.scss';
+@import '../blocks/form/__input-drop-down-elements/form__input-drop-down-elements.scss';
+@import '../blocks/form/__input-drop-down-elements/_opened/form__input-drop-down-elements_opened.scss';
+
+@import '../blocks/drop-down/drop-down.scss';
+@import '../blocks/drop-down/__element/drop-down__element.scss';
+@import '../blocks/drop-down/__element-text/drop-down__element-text.scss';
+
+@import '../blocks/form/__input-range-container/form__input-range-container.scss';
+@import '../blocks/form/__input-range-text/form__input-range-text.scss';
+@import '../blocks/form/__input-range-title/form__input-range-title.scss';
+@import '../blocks/form/__input-range-procent/form__input-range-procent.scss';
+@import '../blocks/form/__input-range/form__input-range.scss';
+
+@import '../blocks/form/__input/_alone/form__input_alone.scss';
+
+@import '../blocks/form/__input-upload/form__input-upload.scss';
+@import '../blocks/form/__input-upload-image/form__input-upload-image.scss';
+@import '../blocks/form/__input-upload-text/form__input-upload-text.scss';
+@import '../blocks/form/__input-upload/_ready/form__input-upload_ready.scss';
+
+@import '../blocks/footer/footer.scss';
+@import '../blocks/footer/__links-container/footer__links-container.scss';
+@import '../blocks/footer/__copyright/footer__copyright.scss';
+@import '../blocks/footer/__group-links-container/footer__group-links-container.scss';
+@import '../blocks/footer/__link-container/footer__link-container.scss';
+@import '../blocks/footer/__link-image/footer__link-image.scss';
+@import '../blocks/footer/__link/footer__link.scss';
+@import '../blocks/footer/__link/_grey/footer__link_grey.scss';
+@import '../blocks/footer/__link/_white/footer__link_white.scss';

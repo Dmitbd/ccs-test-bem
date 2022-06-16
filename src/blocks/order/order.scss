@@ -1,0 +1,37 @@
+.order {
+  background: url('/src/blocks/order/main-image.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  object-fit: cover;
+  position: relative;
+  top: 0px;
+  padding: 12.6rem 20%;
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  span {
+    color: #3E9CDC;
+  }
+}
+
+@media (max-width:1279px) {
+  .order {
+    padding: 10rem 3rem;
+  }
+}
+
+@media (max-width:1199px) {
+  .order {
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width:480px) {
+  .order {
+    padding-top: 7rem;
+    padding-bottom: 1rem;
+  }
+}

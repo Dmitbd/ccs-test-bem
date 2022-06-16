@@ -1,0 +1,28 @@
+.form__input-range-container {
+  border-radius: 1px;
+  width: 47.9rem;
+  background-color: transparent;
+  border: transparent;
+  padding: 0;
+
+  &:focus {
+    border: transparent;
+  }
+
+  &:active {
+    border: transparent;
+  }
+
+  &:hover {
+    cursor: pointer;
+    border: transparent;
+  }
+
+  &::-webkit-input-placeholder {
+    color: #272733;
+  }
+
+  &::-moz-placeholder {
+    color: #272733;
+  }
+}

@@ -1,0 +1,46 @@
+.form__input-drop-down-elements {
+  position: absolute;
+  width: 23.1rem;
+  background-color: #272733;
+  color: #fff;
+  z-index: 1;
+  overflow-y: auto;
+  max-height: 12em;
+  border: 1px solid #3D4050;
+  visibility: hidden;
+  margin-top: 3.7rem;
+  margin-left: 0.8rem;
+
+  &::-webkit-scrollbar {
+    width: 0.31rem;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #3E9CDC;
+  }
+}
+
+@media (max-width:840px) {
+  .form__input-drop-down-elements {
+    width: 22.3rem;
+  }
+}
+
+@media (max-width:680px) {
+  .form__input-drop-down-elements {
+    width: 22.35rem;
+  }
+}
+
+@media (max-width:510px) {
+  .form__input-drop-down-elements {
+    width: 22.25rem;
+  }
+}
+
+@media (max-width:480px) {
+  .form__input-drop-down-elements {
+    margin-top: 3.5rem;
+    width: 16.8rem;
+  }
+}

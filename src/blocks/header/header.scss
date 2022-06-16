@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  background: rgba(16, 16, 29, 0.9);
+  width: 1920px;
+}
+
+@media (max-width:1919px) {
+  .header {
+    width: 100%;
+  }
+}
+
+@media (max-width:979px) {
+  .header {
+    padding: 1rem 0;
+  }
+}
+
+@media (max-width:840px) {
+  .header {
+    a {
+      font-size: 11px;
+    }
+  }
+}
+
+@media (max-width:680px) {
+  .header {
+    flex-direction: column;
+  }
+}

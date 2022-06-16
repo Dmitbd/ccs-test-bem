@@ -1,0 +1,21 @@
+.ordering__element {
+  width: 14rem;
+}
+
+@media (max-width:1199px) {
+  .ordering__element {
+    width: 12rem;
+  }
+}
+
+@media (max-width:979px) {
+  .ordering__element {
+    width: 10rem;
+  }
+}
+
+@media (max-width:840px) {
+  .ordering__element {
+    width: 8rem;
+  }
+}

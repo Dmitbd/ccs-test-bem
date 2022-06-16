@@ -1,0 +1,21 @@
+.form__submit-button {
+  text-transform: uppercase;
+  border-radius: 0.4rem;
+  margin: 2.5rem auto 0;
+  width: 23.1rem;
+  height: 3rem;
+  background-color: #3E9CDC;
+  border: 1px solid #ffffff;
+
+  &:hover {
+    cursor: pointer;
+    border: 1px solid #3E9CDC;
+  }
+}
+
+@media (max-width:480px) {
+  .form__submit-button {
+    width: 15rem;
+    height: 2rem;
+  }
+}

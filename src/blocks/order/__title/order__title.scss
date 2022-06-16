@@ -1,0 +1,12 @@
+.order__title {
+  font-size: 3rem;
+  line-height: 3.6rem;
+  margin: 0;
+  max-width: 40rem;
+}
+
+@media (max-width:840px) {
+  .order__title {
+    max-width: 30rem;
+  }
+}

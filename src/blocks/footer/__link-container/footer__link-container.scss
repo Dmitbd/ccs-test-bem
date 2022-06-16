@@ -1,0 +1,10 @@
+.footer__link-container {
+  text-align: center;
+  margin: auto 1.8rem;
+}
+
+@media (max-width:1199px) {
+  .footer__link-container {
+    margin: auto 1rem;
+  }
+}

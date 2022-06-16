@@ -1,0 +1,16 @@
+.form__input-range {
+  width: 100%;
+
+  &::-webkit-slider-runnable-track {
+    background: #ffff;
+    height: 5px;
+    border-radius: 25%;
+  }
+
+  &::-webkit-slider-thumb {
+    outline: 1px solid #286690;
+    border-radius: 100%;
+    background: #42A9ED;
+    margin-top: -5px;
+  }
+}

@@ -1,0 +1,48 @@
+.header__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #FFFFFF;
+  margin: auto 3.75rem 0.2rem 0;
+
+  &:hover {
+    color: #43ABF0;
+  }
+
+  &:last-child {
+    margin-right: 0rem;
+  }
+}
+
+@media (max-width:840px) {
+  .header__link {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-width:680px) {
+  .header__link {
+    margin-left: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width:510px) {
+  .header__link {
+    margin-left: 0.1rem;
+
+    &:first-child {
+      margin-left: 3rem;
+    }
+
+  }
+}
+
+@media (max-width:480px) {
+  .header__link {
+    margin: auto;
+    &:first-child {
+      margin-left: 2rem;
+    }
+  }
+}

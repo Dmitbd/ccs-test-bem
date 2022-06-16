@@ -1,0 +1,25 @@
+.form__inputs-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 74.3rem;
+  margin: auto;
+}
+
+@media (max-width:1199px) {
+  .form__inputs-container {
+    width: 49.6rem;
+  }
+}
+
+@media (max-width:840px) {
+  .form__inputs-container {
+    width: 24rem;
+  }
+}
+
+@media (max-width:480px) {
+  .form__inputs-container {
+    width: 18.5rem;
+  }
+}
