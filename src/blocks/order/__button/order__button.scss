@@ -10,9 +10,14 @@
   }
 }
 
-@media (max-width:680px) {
+@media (max-width:510px) {
   .order__button {
-    width: 8rem;
+    width: 13rem;
+    margin: 0 auto 1rem auto;
+
+    &:first-child {
+      margin-right: auto;
+    }
   }
 }
 

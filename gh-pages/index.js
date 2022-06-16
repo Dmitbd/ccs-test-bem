@@ -1,7 +1,71 @@
 import './index.scss'
 
-import Item from '../components/Item';
-import Section from '../components/Section';
+class Item {
+  constructor(data, itemSelector, handlers) {
+    this.data = data
+    this.itemSelector = itemSelector
+
+    this.handleTextClick = handlers.onTextClick;
+  }
+
+  getTemplate() {
+    const itemElement = document
+      .querySelector(this.itemSelector)
+      .content
+      .querySelector('.drop-down__element')
+      .cloneNode(true)
+
+    return itemElement;
+  }
+
+  generateItem() {
+    this.element = this.getTemplate();
+    this.addEvents();
+
+    this.element.querySelector('.drop-down__element-text').textContent = this.data;
+
+    return this.element;
+  }
+
+  addEvents() {
+    const dropDownElementText = this.element.querySelector('.drop-down__element-text')
+    dropDownElementText.addEventListener('click', (e) => {
+      this.handleTextClick(this.data)
+    })
+  }
+}
+
+class Section {
+  constructor({ items, renderer }, containerSelector) {
+    this.items = items;
+    this.itemRenderer = renderer;
+    this.container = document.querySelector(containerSelector);
+  }
+
+  renderer(direction = 'after') {
+    this.container.innerHTML = '';
+
+    this.items.forEach(itemData => {
+      const itemElement = this.itemRenderer(itemData);
+      this.addItem(itemElement, direction);
+    })
+    return this;
+  }
+
+  addItem(element, direction) {
+    if (direction === 'after') {
+      this.container.append(element);
+    } else {
+      this.container.prepend(element);
+    }
+    return this;
+  }
+
+  setItems(items) {
+    this.items = items;
+    return this;
+  }
+}
 
 const dropDownButton = document.querySelector('.form__input-drop-down')
 const dropDownElements = document.querySelector('.form__input-drop-down-elements')
