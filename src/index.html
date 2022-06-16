@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./index.html">
   <title>Document</title>
 </head>
 
 <body class="body">
+
   <header class="header">
     <img class="header__image" src="<%=require('./blocks/header/header-logo.svg')%>" alt="компания loremipsom.net">
     <nav class="header__navigate">
@@ -18,157 +20,161 @@
       <a href="#" class="header__link">оформить заказ</a>
     </nav>
   </header>
-</body>
 
-<main class="main">
 
-  <section class='order'>
-    <div class='order__information'>
-      <h2 class='order__title'><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h2>
-      <ul class='order__subtitle'>At vero eos et accusamus et iusto odio dignissimos ducimus!
-        <li>Totam rem aperiam eaque ipsa</li>
-        <li>Sit voluptatem accusantium doloremque laudantium</li>
-        <li>Sed ut perspiciatis, unde omnis iste natus error</li>
-      </ul>
-      <div class='order__button-container'>
-        <button class='order__button order__button_blue'>заказать</button>
-        <button class='order__button order__button_white'>подробнее</button>
-      </div>
-    </div>
-  </section>
+  <main class="main">
 
-  <section class='ordering'>
-    <h3 class='ordering__title'>Оформление <span>Заказа</span></h3>
-    <p class='ordering__subtitle'>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
-
-    <div class='ordering__elements'>
-
-      <div class='ordering__element'>
-        <div class='ordering__element-image-container'>
-          <img src="<%=require('./blocks/ordering/images/logo1.svg')%>" alt='' class='ordering__element-image'></img>
+    <section class='order'>
+      <div class='order__information'>
+        <h2 class='order__title'><span>Lorem ipsum</span> dolor sit amet consectetur <span>adipiscing</span></h2>
+        <ul class='order__subtitle'>At vero eos et accusamus et iusto odio dignissimos ducimus!
+          <li>Totam rem aperiam eaque ipsa</li>
+          <li>Sit voluptatem accusantium doloremque laudantium</li>
+          <li>Sed ut perspiciatis, unde omnis iste natus error</li>
+        </ul>
+        <div class='order__button-container'>
+          <button class='order__button order__button_blue'>заказать</button>
+          <button class='order__button order__button_white'>подробнее</button>
         </div>
-        <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
-        <p class='ordering__text'>Lorem ipsum dolorsit amet</p>
       </div>
+    </section>
 
-      <div class='ordering__element'>
-        <div class='ordering__element-image-container'>
-          <img src="<%=require('./blocks/ordering/images/logo2.svg')%>" alt='' class='ordering__element-image'></img>
-        </div>
-        <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
-        <p class='ordering__text'>Сonsecteturadipiscing elit</p>
-      </div>
+    <section class='ordering'>
+      <h3 class='ordering__title'>Оформление <span>Заказа</span></h3>
+      <p class='ordering__subtitle'>Перед заполнением формы ознакомьтесь с нашей схемой работы!</p>
 
-      <div class='ordering__element'>
-        <div class='ordering__element-image-container'>
-          <img src="<%=require('./blocks/ordering/images/logo3.svg')%>" alt='' class='ordering__element-image'></img>
-        </div>
-        <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
-        <p class='ordering__text'>Sed do eiusmod tempor</p>
-      </div>
+      <div class='ordering__elements'>
 
-      <div class='ordering__element'>
-        <div class='ordering__element-image-container'>
-          <img src="<%=require('./blocks/ordering/images/logo4.svg')%>" alt='' class='ordering__element-image'></img>
-        </div>
-        <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
-        <p class='ordering__text'>Esse cillum doloreeu fugiat</p>
-      </div>
-
-      <div class='ordering__element'>
-        <div class='ordering__element-image-container'>
-          <img src="<%=require('./blocks/ordering/images/logo5.svg')%>" alt='' class='ordering__element-image'></img>
-        </div>
-        <p class='ordering__text'>Excepteur sint occaecat cupidatat non proident</p>
-      </div>
-
-    </div>
-
-    <form class="form" id="ordering-form">
-
-      <div class="form__inputs-container">
-
-        <input class="form__input form__input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
-        <div class="form__input-drop-down-elements"></div>
-        </input>
-
-        <input class="form__input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
-        <input class="form__input" name="name" id="input-name" type="text" placeholder="Ваше имя">
-
-      </div>
-
-      <div class="form__inputs-container">
-
-        <div class="form__input form__input-range-container">
-          <div class="form__input-range-text">
-            <p class="form__input-range-title">Sed ut perspiciatis, unde omnis iste natus</p>
-            <p class="form__input-range-procent"></p>
+        <div class='ordering__element'>
+          <div class='ordering__element-image-container'>
+            <img src="<%=require('./blocks/ordering/images/logo1.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
-          <input class="form__input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
+          <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
+          <p class='ordering__text'>Lorem ipsum dolorsit amet</p>
         </div>
 
-        <input upload id="input-upload" type="file" hidden>
-        <label class="form__input form__input-upload" for="input-upload">
-          <img src="<%=require('./blocks/form/__input-upload/file.svg')%>" alt="" class="form__input-upload-image">
-          <p class="form__input-upload-text">Прикрепить файл</p>
-        </label>
+        <div class='ordering__element'>
+          <div class='ordering__element-image-container'>
+            <img src="<%=require('./blocks/ordering/images/logo2.svg')%>" alt='' class='ordering__element-image'></img>
+          </div>
+          <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
+          <p class='ordering__text'>Сonsecteturadipiscing elit</p>
+        </div>
+
+        <div class='ordering__element'>
+          <div class='ordering__element-image-container'>
+            <img src="<%=require('./blocks/ordering/images/logo3.svg')%>" alt='' class='ordering__element-image'></img>
+          </div>
+          <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
+          <p class='ordering__text'>Sed do eiusmod tempor</p>
+        </div>
+
+        <div class='ordering__element'>
+          <div class='ordering__element-image-container'>
+            <img src="<%=require('./blocks/ordering/images/logo4.svg')%>" alt='' class='ordering__element-image'></img>
+          </div>
+          <img src="<%=require('./blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
+          <p class='ordering__text'>Esse cillum doloreeu fugiat</p>
+        </div>
+
+        <div class='ordering__element'>
+          <div class='ordering__element-image-container'>
+            <img src="<%=require('./blocks/ordering/images/logo5.svg')%>" alt='' class='ordering__element-image'></img>
+          </div>
+          <p class='ordering__text'>Excepteur sint occaecat cupidatat non proident</p>
+        </div>
 
       </div>
 
-      <button class="form__submit-button" type="submit" value="Submit">отправить</button>
+      <form class="form" id="ordering-form">
 
-    </form>
+        <div class="form__inputs-container">
 
-  </section>
+          <input class="form__input form__input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
+          <div class="form__input-drop-down-elements"></div>
+          </input>
 
-</main>
+          <input class="form__input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
+          <input class="form__input" name="name" id="input-name" type="text" placeholder="Ваше имя">
 
-<footer class='footer'>
+        </div>
 
-  <section class="footer__links-container">
-    <p class='footer__copyright'>&#169; 2018 «LoremIpsum.net» Все права защищены.</p>
+        <div class="form__inputs-container">
 
-    <div class="footer__group-links-container">
+          <div class="form__input form__input-range-container">
+            <div class="form__input-range-text">
+              <p class="form__input-range-title">Sed ut perspiciatis, unde omnis iste natus</p>
+              <p class="form__input-range-procent"></p>
+            </div>
+            <input class="form__input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
+          </div>
 
-      <div class="footer__link-container">
-        <img class="footer__link-image" src="<%=require('./blocks/footer/images/qiwi.svg')%>" alt="">
-        <a class="footer__link footer__link_grey" href="#">Qiwi wallet</a>
+          <input upload id="input-upload" type="file" hidden>
+          <label class="form__input form__input-upload" for="input-upload">
+            <img src="<%=require('./blocks/form/__input-upload/file.svg')%>" alt="" class="form__input-upload-image">
+            <p class="form__input-upload-text">Прикрепить файл</p>
+          </label>
+
+        </div>
+
+        <button class="form__submit-button" type="submit" value="Submit">отправить</button>
+
+      </form>
+
+    </section>
+
+  </main>
+
+  <footer class='footer'>
+
+    <section class="footer__links-container">
+      <p class='footer__copyright'>&#169; 2018 «LoremIpsum.net» Все права защищены.</p>
+
+      <div class="footer__group-links-container">
+
+        <div class="footer__link-container">
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/qiwi.svg')%>" alt="">
+          <a class="footer__link footer__link_grey" href="#">Qiwi wallet</a>
+        </div>
+
+        <div class="footer__link-container">
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/yandex-money.svg')%>" alt="">
+          <a class="footer__link footer__link_grey" href="#">Yandex Money</a>
+        </div>
+
+        <div class="footer__link-container">
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/web-money.svg')%>" alt="">
+          <a class="footer__link footer__link_grey" href="#">Web Money</a>
+        </div>
+
       </div>
 
-      <div class="footer__link-container">
-        <img class="footer__link-image" src="<%=require('./blocks/footer/images/yandex-money.svg')%>" alt="">
-        <a class="footer__link footer__link_grey" href="#">Yandex Money</a>
+      <div class="footer__group-links-container">
+
+        <div class="footer__link-container">
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/mail.svg')%>" alt="">
+          <a class="footer__link footer__link_white" href="#">info@ipsum228.com</a>
+        </div>
+
+        <div class="footer__link-container">
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/vk.svg')%>" alt="">
+          <a class="footer__link footer__link_white" href="#">Мы вконтакте</a>
+        </div>
+
       </div>
 
-      <div class="footer__link-container">
-        <img class="footer__link-image" src="<%=require('./blocks/footer/images/web-money.svg')%>" alt="">
-        <a class="footer__link footer__link_grey" href="#">Web Money</a>
-      </div>
+    </section>
 
+  </footer>
+
+  <template class="drop-down" id="drop-down">
+    <div class="drop-down__element">
+      <p class="drop-down__element-text"></p>
     </div>
+  </template>
 
-    <div class="footer__group-links-container">
+  <script type="module" src="./pages/index.js"></script>
 
-      <div class="footer__link-container">
-        <img class="footer__link-image" src="<%=require('./blocks/footer/images/mail.svg')%>" alt="">
-        <a class="footer__link footer__link_white" href="#">info@ipsum228.com</a>
-      </div>
-
-      <div class="footer__link-container">
-        <img class="footer__link-image" src="<%=require('./blocks/footer/images/vk.svg')%>" alt="">
-        <a class="footer__link footer__link_white" href="#">Мы вконтакте</a>
-      </div>
-
-    </div>
-
-  </section>
-
-</footer>
-
-<template class="drop-down" id="drop-down">
-  <div class="drop-down__element">
-    <p class="drop-down__element-text"></p>
-  </div>
-</template>
+</body>
 
 </html>
