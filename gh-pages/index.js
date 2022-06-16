@@ -1,5 +1,3 @@
-import './index.scss'
-
 class Item {
   constructor(data, itemSelector, handlers) {
     this.data = data
