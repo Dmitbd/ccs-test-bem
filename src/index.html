@@ -5,14 +5,13 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css">
   <title>Document</title>
 </head>
 
 <body class="body">
 
   <header class="header">
-    <img class="header__image" src="./src/blocks/header/header-logo.svg" alt="компания loremipsom.net">
+    <img class="header__image" src="<%=require('./src/blocks/header/header-logo.svg')%>" alt="компания loremipsom.net">
     <nav  class="header__navigate">
       <a href="#" class="header__link header__link_active">бизнес</a>
       <a href="#" class="header__link">о нас</a>
@@ -47,39 +46,39 @@
 
         <div class='ordering__element'>
           <div class='ordering__element-image-container'>
-            <img src="./src/blocks/ordering/images/logo1.svg" alt='' class='ordering__element-image'></img>
+            <img src="<%=require('./src/blocks/ordering/images/logo1.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
-          <img src="./src/blocks/ordering/images/points.svg" alt='' class='ordering__element-bond'></img>
+          <img src="<%=require('./src/blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
           <p class='ordering__text'>Lorem ipsum dolorsit amet</p>
         </div>
 
         <div class='ordering__element'>
           <div class='ordering__element-image-container'>
-            <img src="./src/blocks/ordering/images/logo2.svg" alt='' class='ordering__element-image'></img>
+            <img src="<%=require('./src/blocks/ordering/images/logo2.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
-          <img src="./src/blocks/ordering/images/points.svg" alt='' class='ordering__element-bond'></img>
+          <img src="<%=require('./src/blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
           <p class='ordering__text'>Сonsecteturadipiscing elit</p>
         </div>
 
         <div class='ordering__element'>
           <div class='ordering__element-image-container'>
-            <img src="./src/blocks/ordering/images/logo3.svg" alt='' class='ordering__element-image'></img>
+            <img src="<%=require('./src/blocks/ordering/images/logo3.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
-          <img src="./src/blocks/ordering/images/points.svg" alt='' class='ordering__element-bond'></img>
+          <img src="<%=require('./src/blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
           <p class='ordering__text'>Sed do eiusmod tempor</p>
         </div>
 
         <div class='ordering__element'>
           <div class='ordering__element-image-container'>
-            <img src="./src/blocks/ordering/images/logo4.svg" alt='' class='ordering__element-image'></img>
+            <img src="<%=require('./src/blocks/ordering/images/logo4.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
-          <img src="./src/blocks/ordering/images/points.svg" alt='' class='ordering__element-bond'></img>
+          <img src="<%=require('./src/blocks/ordering/images/points.svg')%>" alt='' class='ordering__element-bond'></img>
           <p class='ordering__text'>Esse cillum doloreeu fugiat</p>
         </div>
 
         <div class='ordering__element'>
           <div class='ordering__element-image-container'>
-            <img src="./src/blocks/ordering/images/logo5.svg" alt='' class='ordering__element-image'></img>
+            <img src="<%=require('./src/blocks/ordering/images/logo5.svg')%>" alt='' class='ordering__element-image'></img>
           </div>
           <p class='ordering__text'>Excepteur sint occaecat cupidatat non proident</p>
         </div>
@@ -111,7 +110,7 @@
 
           <input upload id="input-upload" type="file" hidden>
           <label class="form__input form__input-upload" for="input-upload">
-            <img src="./src/blocks/form/__input-upload/file.svg" alt="" class="form__input-upload-image">
+            <img src="<%=require('./src/blocks/form/__input-upload/file.svg')%>" alt="" class="form__input-upload-image">
             <p class="form__input-upload-text">Прикрепить файл</p>
           </label>
 
@@ -133,17 +132,17 @@
       <div class="footer__group-links-container">
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/qiwi.svg" alt="Qiwi wallet">
+          <img class="footer__link-image" src="<%=require('./src/blocks/footer/images/qiwi.svg')%>" alt="Qiwi wallet">
           <a class="footer__link footer__link_grey" href="#">Qiwi wallet</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/yandex-money.svg" alt="Yandex Money">
+          <img class="footer__link-image" src="<%=require('./src/blocks/footer/images/yandex-money.svg')%>" alt="Yandex Money">
           <a class="footer__link footer__link_grey" href="#">Yandex Money</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/web-money.svg" alt="Web Money">
+          <img class="footer__link-image" src="<%=require('./src/blocks/footer/images/web-money.svg')%>" alt="Web Money">
           <a class="footer__link footer__link_grey" href="#">Web Money</a>
         </div>
 
@@ -152,12 +151,12 @@
       <div class="footer__group-links-container">
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/mail.svg" alt="email">
+          <img class="footer__link-image" src="<%=require('./src/blocks/footer/images/mail.svg')%>" alt="info@ipsum228.com">
           <a class="footer__link footer__link_white" href="#">info@ipsum228.com</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/vk.svg" alt="Мы вконтакте">
+          <img class="footer__link-image" src="<%=require('./src/blocks/footer/images/vk.svg')%>" alt="Мы вконтакте">
           <a class="footer__link footer__link_white" href="#">Мы вконтакте</a>
         </div>
 
@@ -172,8 +171,6 @@
       <p class="drop-down__element-text"></p>
     </div>
   </template>
-
-  <script type="module" src="./src/pages/index.js"></script>
 
 </body>
 

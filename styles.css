@@ -574,7 +574,7 @@ template {
 }
 
 .order {
-  background: url(7e0c390ecb87485a8591.png);
+  background: url(./src/blocks/order/main-image.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
@@ -685,7 +685,7 @@ template {
 
 .ordering {
   color: white;
-  background-image: url(fcf1a2ac7febce383623.png);
+  background-image: url(./src/blocks/ordering/images/BG.png);
   padding-top: 7.5rem;
   padding-bottom: 5rem;
 }
@@ -866,7 +866,7 @@ template {
 .form__input-drop-down {
   color: #272733;
   display: flex;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjkzMzcgOC41MTA3OUMxNC45MzM3IDguNDM5MzYgMTQuODk4IDguMzU5IDE0Ljg0NDUgOC4zMDU0M0wxNC4zOTggNy44NTlDMTQuMzQ0NSA3LjgwNTQzIDE0LjI2NDEgNy43Njk3MSAxNC4xOTI3IDcuNzY5NzFDMTQuMTIxMiA3Ljc2OTcxIDE0LjA0MDkgNy44MDU0MyAxMy45ODczIDcuODU5TDEwLjQ3ODQgMTEuMzY3OUw2Ljk2OTQ2IDcuODU5QzYuOTE1ODkgNy44MDU0MyA2LjgzNTUzIDcuNzY5NzEgNi43NjQxIDcuNzY5NzFDNi42ODM3NSA3Ljc2OTcxIDYuNjEyMzIgNy44MDU0MyA2LjU1ODc1IDcuODU5TDYuMTEyMzIgOC4zMDU0M0M2LjA1ODc1IDguMzU5IDYuMDIzMDMgOC40MzkzNiA2LjAyMzAzIDguNTEwNzlDNi4wMjMwMyA4LjU4MjIxIDYuMDU4NzUgOC42NjI1NyA2LjExMjMyIDguNzE2MTRMMTAuMjczIDEyLjg3NjlDMTAuMzI2NiAxMi45MzA0IDEwLjQwNyAxMi45NjYxIDEwLjQ3ODQgMTIuOTY2MUMxMC41NDk4IDEyLjk2NjEgMTAuNjMwMiAxMi45MzA0IDEwLjY4MzcgMTIuODc2OUwxNC44NDQ1IDguNzE2MTRDMTQuODk4IDguNjYyNTcgMTQuOTMzNyA4LjU4MjIxIDE0LjkzMzcgOC41MTA3OVoiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=);
+  background-image: url(./src/blocks/form/__input-drop-down/closed.svg);
   background-position: right 0.8rem top 0.8rem;
   background-repeat: no-repeat;
   outline: none;
@@ -893,7 +893,7 @@ template {
 
 .form__input-drop-down_dark {
   background-color: #3D4050;
-  background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjEiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAyMSAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE0LjkzMzcgMTIuMzQ4NUMxNC45MzM3IDEyLjQxOTkgMTQuODk4IDEyLjUwMDMgMTQuODQ0NCAxMi41NTM4TDE0LjM5OCAxMy4wMDAzQzE0LjM0NDQgMTMuMDUzOCAxNC4yNjQxIDEzLjA4OTUgMTQuMTkyNyAxMy4wODk1QzE0LjEyMTIgMTMuMDg5NSAxNC4wNDA5IDEzLjA1MzggMTMuOTg3MyAxMy4wMDAzTDEwLjQ3ODQgOS40OTEzMkw2Ljk2OTQ0IDEzLjAwMDNDNi45MTU4NyAxMy4wNTM4IDYuODM1NTEgMTMuMDg5NSA2Ljc2NDA4IDEzLjA4OTVDNi42ODM3MiAxMy4wODk1IDYuNjEyMyAxMy4wNTM4IDYuNTU4NzIgMTMuMDAwM0w2LjExMjMgMTIuNTUzOEM2LjA1ODcyIDEyLjUwMDMgNi4wMjMwMSAxMi40MTk5IDYuMDIzMDEgMTIuMzQ4NUM2LjAyMzAxIDEyLjI3NyA2LjA1ODcyIDEyLjE5NjcgNi4xMTIzIDEyLjE0MzFMMTAuMjczIDcuOTgyNEMxMC4zMjY2IDcuOTI4ODIgMTAuNDA2OSA3Ljg5MzExIDEwLjQ3ODQgNy44OTMxMUMxMC41NDk4IDcuODkzMTEgMTAuNjMwMiA3LjkyODgyIDEwLjY4MzcgNy45ODI0TDE0Ljg0NDQgMTIuMTQzMUMxNC44OTggMTIuMTk2NyAxNC45MzM3IDEyLjI3NyAxNC45MzM3IDEyLjM0ODVaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K);
+  background-image: url(./src/blocks/form/__input-drop-down/opened.svg);
   color: #ffffff;
   border: 1px solid #3D4050;
   border-radius: 3px;
