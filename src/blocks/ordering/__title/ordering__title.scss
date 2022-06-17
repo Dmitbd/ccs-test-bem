@@ -1,5 +1,13 @@
 .ordering__title {
   text-align: center;
   font-size: 2.35rem;
+  line-height: 2.7rem;
   margin: 0;
+}
+
+@media (max-width:768px) {
+  .ordering__title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
 }

@@ -3,21 +3,15 @@
   margin: -3.2rem auto auto 10.6rem;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1280px) {
   .ordering__element-bond {
-    margin-left: 9.4rem;
-    width: 5.5rem;
+    margin-left: 8.6rem;
+    margin-top: -2.7rem;
+    width: 5rem;
   }
 }
 
-@media (max-width:979px) {
-  .ordering__element-bond {
-    width: 3.5rem;
-    margin-left: 8.3rem;
-  }
-}
-
-@media (max-width:840px) {
+@media (max-width:1024px) {
   .ordering__element-bond {
     visibility: hidden;
   }

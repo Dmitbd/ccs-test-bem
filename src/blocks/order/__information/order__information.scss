@@ -1,0 +1,16 @@
+.order__information {
+  width: 74.3rem;
+}
+
+@media (max-width:1280px) {
+  .order__information {
+    width: 100%;
+    margin: 0 5rem;
+  }
+}
+
+@media (max-width:480px) {
+  .order__information {
+    margin: 0 1rem;
+  }
+}

@@ -1,9 +1,17 @@
 .ordering__subtitle {
   text-align: center;
   font-size: 1.1rem;
-  font-weight: 1.3rem;
-  margin: 1.8rem 0 0 0;
+  line-height: 1rem;
+  margin: 1.8rem auto 0 auto;
   color: #BBBBBB;
+}
+
+@media (max-width:768px) {
+  .ordering__subtitle {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    max-width: 23rem;
+  }
 }
 
 @media (max-width:480px) {

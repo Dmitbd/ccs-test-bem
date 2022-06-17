@@ -4,16 +4,21 @@
   margin: 5rem auto 5.3rem;
 }
 
-@media (max-width:979px) {
+@media (max-width:1024px) {
   .ordering__elements {
     margin: 3rem auto 3.3rem;
+    flex-wrap: wrap;
+    justify-content: start;
+    width: 34rem;
   }
 }
 
-@media (max-width:680px) {
+@media (max-width:768px) {
   .ordering__elements {
-    flex-wrap: wrap;
-    width: 23rem;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 19rem;
+    justify-content: center;
   }
 }
 

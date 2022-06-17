@@ -5,15 +5,18 @@
   margin: 1.2rem 0 0;
 }
 
-@media (max-width:840px) {
+@media (max-width:1280px) {
   .ordering__text {
     padding: 0 0.2rem;
-    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    line-height: 1rem;
   }
 }
 
-@media (max-width:480px) {
+@media (max-width:1024px) {
   .ordering__text {
-    padding-bottom: 0.3rem;
+    width: 10rem;
+    margin: auto 0;
+    padding: 0 0.4rem;
   }
 }

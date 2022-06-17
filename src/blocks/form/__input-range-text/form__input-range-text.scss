@@ -4,3 +4,9 @@
   font-size: 1.125rem;
   line-height: 1.35rem;
 }
+
+@media (max-width:1024px) {
+  .form__input-range-text {
+    font-size: 0.9rem;
+  }
+}

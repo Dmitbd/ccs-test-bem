@@ -1,0 +1,25 @@
+.header__sticky-container {
+  display: flex;
+  justify-content: space-between;
+  width: 74.3rem;
+}
+
+@media (max-width:1280px) {
+  .header__sticky-container {
+    width: 100%;
+    margin: auto 5rem;
+  }
+}
+
+@media (max-width:768px) {
+  .header__sticky-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width:480px) {
+  .header__sticky-container {
+    margin: auto;
+  }
+}

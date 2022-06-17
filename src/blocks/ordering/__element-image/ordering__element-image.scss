@@ -4,3 +4,10 @@
   margin: auto;
   text-align: center;
 }
+
+@media (max-width:1024px) {
+  .ordering__element-image {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}

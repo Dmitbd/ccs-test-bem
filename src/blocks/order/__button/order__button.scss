@@ -4,9 +4,17 @@
   margin: auto;
   width: 11.4rem;
   height: 2.6rem;
+  font-size: 0.8rem;
+  line-height: 0.9rem;
 
   &:first-child {
     margin-right: 1.8rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .order__button {
+    height: 2rem;
   }
 }
 
@@ -23,7 +31,7 @@
 
 @media (max-width:480px) {
   .order__button {
-    width: 13rem;
+    width: 17rem;
     margin-bottom: 1rem;
   }
 }

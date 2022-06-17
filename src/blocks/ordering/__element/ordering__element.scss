@@ -2,20 +2,22 @@
   width: 14rem;
 }
 
-@media (max-width:1199px) {
+@media (max-width:1280px) {
   .ordering__element {
-    width: 12rem;
+    width: 11rem;
   }
 }
 
-@media (max-width:979px) {
+@media (max-width:1024px) {
   .ordering__element {
-    width: 10rem;
+    display: flex;
+    width: 17rem;
+    margin-top: 1rem;
   }
 }
 
-@media (max-width:840px) {
+@media (max-width:480px) {
   .ordering__element {
-    width: 8rem;
+    width: 15rem;
   }
 }

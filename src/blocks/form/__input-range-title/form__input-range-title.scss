@@ -1,3 +1,9 @@
 .form__input-range-title {
   margin: 0;
 }
+
+@media (max-width:768px) {
+  .form__input-range-title {
+    width: 12rem;
+  }
+}

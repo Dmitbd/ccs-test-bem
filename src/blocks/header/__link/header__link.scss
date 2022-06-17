@@ -14,35 +14,20 @@
   }
 }
 
-@media (max-width:840px) {
+@media (max-width:1024px) {
   .header__link {
-    margin-right: 1rem;
+    margin-right: 1.3rem;
+    font-size: 0.7rem;
   }
 }
 
-@media (max-width:680px) {
+@media (max-width:768px) {
   .header__link {
-    margin-left: 3rem;
-    margin-top: 1rem;
-  }
-}
-
-@media (max-width:510px) {
-  .header__link {
-    margin-left: 0.1rem;
-
-    &:first-child {
-      margin-left: 3rem;
-    }
-
-  }
-}
-
-@media (max-width:480px) {
-  .header__link {
+    flex-direction: column;
     margin: auto;
-    &:first-child {
-      margin-left: 2rem;
+
+    &:last-child {
+      margin-right: auto;
     }
   }
 }

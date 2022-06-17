@@ -5,8 +5,29 @@
   max-width: 40rem;
 }
 
-@media (max-width:840px) {
+@media (max-width:1280px) {
+  .order__title {
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+  }
+}
+
+@media (max-width:1024px) {
+  .order__title {
+    max-width: 35rem;
+  }
+}
+
+@media (max-width:768px) {
   .order__title {
     max-width: 30rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+  }
+}
+
+@media (max-width:480px) {
+  .order__title {
+    font-size: 2rem;
   }
 }
