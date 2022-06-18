@@ -15,10 +15,11 @@
 @import '../blocks/order/__information/order__information.scss';
 @import '../blocks/order/__title/order__title.scss';
 @import '../blocks/order/__subtitle/order__subtitle.scss';
-@import '../blocks/order/__button-container/order__button-container.scss';
-@import '../blocks/order/__button/order__button.scss';
-@import '../blocks/order/__button/_blue/order__button_blue.scss';
-@import '../blocks/order/__button/_white/order__button_white.scss';
+@import '../blocks/order/__buttons-container/order__buttons-container.scss';
+
+@import '../blocks/button/button.scss';
+@import '../blocks/button/_blue/button_blue.scss';
+@import '../blocks/button/_first-child-margin/button_first-child-margin.scss';
 
 @import '../blocks/ordering/ordering.scss';
 @import '../blocks/ordering/__title/ordering__title.scss';
@@ -32,19 +33,18 @@
 
 @import '../blocks/form/form.scss';
 @import '../blocks/form/__inputs-container/form__inputs-container.scss.scss';
-@import '../blocks/form/__submit-button/form__submit-button.scss';
+@import '../blocks/button/__form-submit/button__form-submit.scss';
 
 @import '../blocks/input/input.scss';
 
 @import '../blocks/input-drop-down/input-drop-down.scss';
-@import '../blocks/input-drop-down/_dark/input-drop-down_dark.scss';
+@import '../blocks/input-drop-down/_opened/input-drop-down_opened.scss';
 @import '../blocks/input-drop-down/__elements/input-drop-down__elements.scss';
 @import '../blocks/input-drop-down/__elements/_opened/input-drop-down__elements_opened.scss';
 
 // template drop-down menu
-@import '../blocks/drop-down/drop-down.scss';
-@import '../blocks/drop-down/__element/drop-down__element.scss';
-@import '../blocks/drop-down/__element-text/drop-down__element-text.scss';
+@import '../blocks/input-drop-down/__element/drop-down__element.scss';
+@import '../blocks/input-drop-down/__element-text/drop-down__element-text.scss';
 
 @import '../blocks/input-range/input-range.scss';
 @import '../blocks/input-range/__container/input-range__container.scss';

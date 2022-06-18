@@ -1,4 +1,4 @@
-.input-drop-down_dark {
+.input-drop-down_opened {
   background-color: #3D4050;
   background-image: url(/src/blocks/input-drop-down/images/drop-down-opened.svg);
   color: #ffffff;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width:1024px) {
-  .input-drop-down_dark {
+  .input-drop-down_opened {
     height: 2rem;
     width: 19rem;
     margin-left: 0.8rem;
@@ -21,7 +21,7 @@
 }
 
 @media (max-width:480px) {
-  .input-drop-down_dark {
+  .input-drop-down_opened {
     width: 16.6rem;
     margin-left: 0.8rem;
     font-size: 0.8rem;
