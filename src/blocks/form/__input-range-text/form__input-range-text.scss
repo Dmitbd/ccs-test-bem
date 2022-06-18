@@ -10,3 +10,9 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width:480px) {
+  .form__input-range-text {
+    font-size: 0.8rem;
+  }
+}

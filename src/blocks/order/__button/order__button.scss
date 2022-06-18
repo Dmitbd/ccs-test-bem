@@ -18,20 +18,13 @@
   }
 }
 
-@media (max-width:510px) {
-  .order__button {
-    width: 13rem;
-    margin: 0 auto 1rem auto;
-
-    &:first-child {
-      margin-right: auto;
-    }
-  }
-}
-
 @media (max-width:480px) {
   .order__button {
     width: 17rem;
     margin-bottom: 1rem;
+
+    &:first-child {
+      margin-right: auto;
+    }
   }
 }

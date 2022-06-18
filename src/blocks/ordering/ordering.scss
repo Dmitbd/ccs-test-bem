@@ -1,8 +1,7 @@
 .ordering {
   color: #ffff;
   background-image: url('/src/blocks/ordering/images/BG.png');
-  padding-top: 1.3rem;
-  padding-bottom: 5rem;
+  padding: 7.5rem 0 9.3rem;
 
   span {
     color: #3E9CDC;
@@ -11,12 +10,12 @@
 
 @media (max-width:1024px) {
   .ordering {
-    padding-top: 0;
+    padding: 5rem 0 7rem;
   }
 }
 
 @media (max-width:480px) {
   .ordering {
-    padding-bottom: 3rem;
+    padding: 3rem 0 5rem;
   }
 }

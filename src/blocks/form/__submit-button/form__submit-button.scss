@@ -29,3 +29,9 @@
     height: 2rem;
   }
 }
+
+@media (max-width:480px) {
+  .form__submit-button {
+    font-size: 0.8rem;
+  }
+}

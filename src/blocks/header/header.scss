@@ -1,9 +1,10 @@
 .header {
+  all:inherit;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 2rem 0;
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 1;
   background: rgba(16, 16, 29, 0.9);
 }

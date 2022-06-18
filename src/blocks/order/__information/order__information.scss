@@ -1,16 +1,24 @@
 .order__information {
-  width: 74.3rem;
+  max-width: 40rem;
+  margin-left: 20%;
 }
 
 @media (max-width:1280px) {
   .order__information {
-    width: 100%;
-    margin: 0 5rem;
+    margin-left: 10%;
+  }
+}
+
+@media (max-width:768px) {
+  .order__information {
+    width: 25rem;
+    margin: 0 auto;
   }
 }
 
 @media (max-width:480px) {
   .order__information {
-    margin: 0 1rem;
+    width: 18rem;
+
   }
 }

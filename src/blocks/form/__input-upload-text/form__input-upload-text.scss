@@ -8,3 +8,9 @@
     font-size: 1rem;
   }
 }
+
+@media (max-width:480px) {
+  .form__input-upload-text {
+    font-size: 0.8rem;
+  }
+}

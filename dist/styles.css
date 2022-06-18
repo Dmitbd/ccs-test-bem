@@ -393,14 +393,16 @@ template {
   max-width: 1920px;
   background-color: #272733;
   font-size: 1rem;
+  position: relative;
 }
 
 .header {
+  all: inherit;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 2rem 0;
-  position: sticky;
-  top: 0;
+  position: fixed;
   z-index: 1;
   background: rgba(16, 16, 29, 0.9);
 }
@@ -486,6 +488,11 @@ template {
     margin-right: auto;
   }
 }
+@media (max-width: 480px) {
+  .header__link {
+    font-size: 0.6rem;
+  }
+}
 .header__link_active {
   color: #3E9CDC;
 }
@@ -495,12 +502,7 @@ template {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  object-fit: cover;
-  position: relative;
-  top: -6.2rem;
   padding: 12.6rem 0;
-  display: flex;
-  justify-content: center;
 }
 .order h2 {
   text-transform: uppercase;
@@ -525,25 +527,30 @@ template {
   }
 }
 .order__information {
-  width: 74.3rem;
+  max-width: 40rem;
+  margin-left: 20%;
 }
 
 @media (max-width: 1280px) {
   .order__information {
-    width: 100%;
-    margin: 0 5rem;
+    margin-left: 10%;
+  }
+}
+@media (max-width: 768px) {
+  .order__information {
+    width: 25rem;
+    margin: 0 auto;
   }
 }
 @media (max-width: 480px) {
   .order__information {
-    margin: 0 1rem;
+    width: 18rem;
   }
 }
 .order__title {
   font-size: 3rem;
   line-height: 3.6rem;
   margin: 0;
-  max-width: 40rem;
 }
 
 @media (max-width: 1280px) {
@@ -566,7 +573,8 @@ template {
 }
 @media (max-width: 480px) {
   .order__title {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    line-height: 2.1rem;
   }
 }
 .order__subtitle {
@@ -594,7 +602,8 @@ template {
 @media (max-width: 480px) {
   .order__subtitle {
     margin-top: 1rem;
-    line-height: 1.5rem;
+    font-size: 0.9rem;
+    line-height: 1.3rem;
   }
 }
 .order__button-container {
@@ -632,19 +641,13 @@ template {
     height: 2rem;
   }
 }
-@media (max-width: 510px) {
-  .order__button {
-    width: 13rem;
-    margin: 0 auto 1rem auto;
-  }
-  .order__button:first-child {
-    margin-right: auto;
-  }
-}
 @media (max-width: 480px) {
   .order__button {
     width: 17rem;
     margin-bottom: 1rem;
+  }
+  .order__button:first-child {
+    margin-right: auto;
   }
 }
 .order__button_blue {
@@ -669,8 +672,7 @@ template {
 .ordering {
   color: white;
   background-image: url(fcf1a2ac7febce383623.png);
-  padding-top: 1.3rem;
-  padding-bottom: 5rem;
+  padding: 7.5rem 0 9.3rem;
 }
 .ordering span {
   color: #3E9CDC;
@@ -678,12 +680,12 @@ template {
 
 @media (max-width: 1024px) {
   .ordering {
-    padding-top: 0;
+    padding: 5rem 0 7rem;
   }
 }
 @media (max-width: 480px) {
   .ordering {
-    padding-bottom: 3rem;
+    padding: 3rem 0 5rem;
   }
 }
 .ordering__title {
@@ -696,6 +698,12 @@ template {
 @media (max-width: 768px) {
   .ordering__title {
     font-size: 2rem;
+    line-height: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .ordering__title {
+    font-size: 1.7rem;
     line-height: 2rem;
   }
 }
@@ -717,6 +725,7 @@ template {
 @media (max-width: 480px) {
   .ordering__subtitle {
     margin-top: 0.5rem;
+    font-size: 0.8rem;
   }
 }
 .ordering__elements {
@@ -920,7 +929,7 @@ template {
   .form__input-drop-down_dark {
     width: 16.6rem;
     margin-left: 0.8rem;
-    font-size: 1rem;
+    font-size: 0.8rem;
   }
 }
 .form__input {
@@ -963,6 +972,11 @@ template {
     height: 2rem;
   }
 }
+@media (max-width: 480px) {
+  .form__input {
+    font-size: 0.8rem;
+  }
+}
 .form__submit-button {
   text-transform: uppercase;
   border-radius: 0.4rem;
@@ -990,6 +1004,11 @@ template {
   .form__submit-button {
     width: 17rem;
     height: 2rem;
+  }
+}
+@media (max-width: 480px) {
+  .form__submit-button {
+    font-size: 0.8rem;
   }
 }
 .form__input-drop-down-elements {
@@ -1029,6 +1048,7 @@ template {
 @media (max-width: 480px) {
   .form__input-drop-down-elements {
     width: 17.2rem;
+    font-size: 0.8rem;
   }
 }
 .form__input-drop-down-elements_opened {
@@ -1094,6 +1114,11 @@ template {
     font-size: 0.9rem;
   }
 }
+@media (max-width: 480px) {
+  .form__input-range-text {
+    font-size: 0.8rem;
+  }
+}
 .form__input-range-title {
   margin: 0;
 }
@@ -1148,6 +1173,11 @@ template {
     font-size: 1rem;
   }
 }
+@media (max-width: 480px) {
+  .form__input-upload-text {
+    font-size: 0.8rem;
+  }
+}
 .form__input-upload_ready {
   color: #3E9CDC;
 }
@@ -1155,7 +1185,7 @@ template {
 .footer {
   color: white;
   background-color: #3D4050;
-  padding: 3em 0;
+  padding: 0.8rem 0;
 }
 
 @media (max-width: 1280px) {
