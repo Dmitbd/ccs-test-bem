@@ -91,29 +91,30 @@
 
         <div class="form__inputs-container">
 
-          <input class="form__input form__input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
-          <div class="form__input-drop-down-elements"></div>
+          <input class="input input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
+          <div class="input-drop-down__elements"></div>
           </input>
 
-          <input class="form__input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
-          <input class="form__input" name="name" id="input-name" type="text" placeholder="Ваше имя">
+          <input class="input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
+          <input class="input" name="name" id="input-name" type="text" placeholder="Ваше имя">
 
         </div>
 
         <div class="form__inputs-container">
 
-          <div class="form__input form__input-range-container">
-            <div class="form__input-range-text">
-              <p class="form__input-range-title">Sed ut perspiciatis, unde omnis iste natus</p>
-              <p class="form__input-range-procent"></p>
+          <div class="input input-range__container">
+            <div class="input-range__text-container">
+              <p class="input-range__title-text">Sed ut perspiciatis, unde omnis iste natus</p>
+              <p class="input-range__title-procent"></p>
             </div>
-            <input class="form__input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
+            <input class="input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
           </div>
 
           <input upload id="input-upload" type="file" hidden>
-          <label class="form__input form__input-upload" for="input-upload">
-            <img src="<%=require('./blocks/form/__input-upload/file.svg')%>" alt="" class="form__input-upload-image">
-            <p class="form__input-upload-text">Прикрепить файл</p>
+          <label class="input input-upload" for="input-upload">
+            <img src="<%=require('./blocks/input-upload/images/input-upload-icon.svg')%>" alt=""
+              class="input-upload__image">
+            <p class="input-upload__text">Прикрепить файл</p>
           </label>
 
         </div>

@@ -2,7 +2,7 @@
   text-align: center;
   font-size: 2.35rem;
   line-height: 2.7rem;
-  margin: 0;
+  margin: 0 auto;
 }
 
 @media (max-width:768px) {
@@ -14,6 +14,7 @@
 
 @media (max-width:480px) {
   .ordering__title {
+    max-width: 16rem;
     font-size: 1.7rem;
     line-height: 2rem;
   }

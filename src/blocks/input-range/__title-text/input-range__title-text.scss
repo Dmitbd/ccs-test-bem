@@ -1,0 +1,9 @@
+.input-range__title-text {
+  margin: 0;
+}
+
+@media (max-width:768px) {
+  .input-range__title-text {
+    width: 12rem;
+  }
+}

@@ -32,30 +32,30 @@
 
 @import '../blocks/form/form.scss';
 @import '../blocks/form/__inputs-container/form__inputs-container.scss.scss';
-@import '../blocks//form/__input-drop-down/form__input-drop-down.scss';
-@import '../blocks/form/__input-drop-down-text/form__input-drop-down-text.scss';
-@import '../blocks/form/__input-drop-down/_dark/form__input-drop-down_dark.scss';
-@import '../blocks/form/__input/form__input.scss';
 @import '../blocks/form/__submit-button/form__submit-button.scss';
-@import '../blocks/form/__input-drop-down-elements/form__input-drop-down-elements.scss';
-@import '../blocks/form/__input-drop-down-elements/_opened/form__input-drop-down-elements_opened.scss';
 
+@import '../blocks/input/input.scss';
+
+@import '../blocks/input-drop-down/input-drop-down.scss';
+@import '../blocks/input-drop-down/_dark/input-drop-down_dark.scss';
+@import '../blocks/input-drop-down/__elements/input-drop-down__elements.scss';
+@import '../blocks/input-drop-down/__elements/_opened/input-drop-down__elements_opened.scss';
+
+// template drop-down menu
 @import '../blocks/drop-down/drop-down.scss';
 @import '../blocks/drop-down/__element/drop-down__element.scss';
 @import '../blocks/drop-down/__element-text/drop-down__element-text.scss';
 
-@import '../blocks/form/__input-range-container/form__input-range-container.scss';
-@import '../blocks/form/__input-range-text/form__input-range-text.scss';
-@import '../blocks/form/__input-range-title/form__input-range-title.scss';
-@import '../blocks/form/__input-range-procent/form__input-range-procent.scss';
-@import '../blocks/form/__input-range/form__input-range.scss';
+@import '../blocks/input-range/input-range.scss';
+@import '../blocks/input-range/__container/input-range__container.scss';
+@import '../blocks/input-range/__text-container/input-range__text-container.scss';
+@import '../blocks/input-range/__title-text/input-range__title-text.scss';
+@import '../blocks/input-range/__title-procent/input-range__title-procent.scss';
 
-@import '../blocks/form/__input/_alone/form__input_alone.scss';
-
-@import '../blocks/form/__input-upload/form__input-upload.scss';
-@import '../blocks/form/__input-upload-image/form__input-upload-image.scss';
-@import '../blocks/form/__input-upload-text/form__input-upload-text.scss';
-@import '../blocks/form/__input-upload/_ready/form__input-upload_ready.scss';
+@import '../blocks/input-upload/input-upload.scss';
+@import '../blocks/input-upload/_ready/input-upload_ready.scss';
+@import '../blocks/input-upload/__image/input-upload__image.scss';
+@import '../blocks/input-upload/__text/input-upload__text.scss';
 
 @import '../blocks/footer/footer.scss';
 @import '../blocks/footer/__links-container/footer__links-container.scss';

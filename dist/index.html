@@ -91,29 +91,30 @@
 
         <div class="form__inputs-container">
 
-          <input class="form__input form__input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
-          <div class="form__input-drop-down-elements"></div>
+          <input class="input input-drop-down" id="input-dropdown" value="Выберите тип системы" readonly>
+          <div class="input-drop-down__elements"></div>
           </input>
 
-          <input class="form__input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
-          <input class="form__input" name="name" id="input-name" type="text" placeholder="Ваше имя">
+          <input class="input" name="email" id="input-email" type="email" placeholder="Ваш e-mail">
+          <input class="input" name="name" id="input-name" type="text" placeholder="Ваше имя">
 
         </div>
 
         <div class="form__inputs-container">
 
-          <div class="form__input form__input-range-container">
-            <div class="form__input-range-text">
-              <p class="form__input-range-title">Sed ut perspiciatis, unde omnis iste natus</p>
-              <p class="form__input-range-procent"></p>
+          <div class="input input-range__container">
+            <div class="input-range__text-container">
+              <p class="input-range__title-text">Sed ut perspiciatis, unde omnis iste natus</p>
+              <p class="input-range__title-procent"></p>
             </div>
-            <input class="form__input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
+            <input class="input-range" name="range" id="input-range" type="range" min="0" max="100" value="0">
           </div>
 
           <input upload id="input-upload" type="file" hidden>
-          <label class="form__input form__input-upload" for="input-upload">
-            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAxOCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjgxMjUgNC42MDg5OUwxMy4zMzA0IDEuMTI2ODVDMTIuOTE3NCAwLjcxMzkwMiAxMi4wOTE1IDAuMzY3OTIgMTEuNSAwLjM2NzkySDEuNTAwMDJDMC45MDg1IDAuMzY3OTIgMC40Mjg1ODkgMC44NDc4MzEgMC40Mjg1ODkgMS40MzkzNVYxOS4yOTY1QzAuNDI4NTg5IDE5Ljg4OCAwLjkwODUgMjAuMzY3OSAxLjUwMDAyIDIwLjM2NzlIMTYuNUMxNy4wOTE1IDIwLjM2NzkgMTcuNTcxNCAxOS44ODggMTcuNTcxNCAxOS4yOTY1VjYuNDM5MzVDMTcuNTcxNCA1Ljg0NzgzIDE3LjIyNTUgNS4wMjE5NCAxNi44MTI1IDQuNjA4OTlaTTExLjg1NzIgMS44ODU3OEMxMi4wNDY5IDEuOTUyNzQgMTIuMjM2NiAyLjA1MzE5IDEyLjMxNDggMi4xMzEzMUwxNS44MDgxIDUuNjI0NjJDMTUuODg2MiA1LjcwMjc0IDE1Ljk4NjYgNS44OTI0NyAxNi4wNTM2IDYuMDgyMjFIMTEuODU3MlYxLjg4NTc4Wk0xNi4xNDI5IDE4LjkzOTRIMS44NTcxNlYxLjc5NjQ5SDEwLjQyODZWNi40MzkzNUMxMC40Mjg2IDcuMDMwODcgMTAuOTA4NSA3LjUxMDc4IDExLjUgNy41MTA3OEgxNi4xNDI5VjE4LjkzOTRaTTQuNzE0MyA5LjI5NjQ5VjEwLjAxMDhDNC43MTQzIDEwLjIxMTcgNC44NzA1NSAxMC4zNjc5IDUuMDcxNDUgMTAuMzY3OUgxMi45Mjg2QzEzLjEyOTUgMTAuMzY3OSAxMy4yODU3IDEwLjIxMTcgMTMuMjg1NyAxMC4wMTA4VjkuMjk2NDlDMTMuMjg1NyA5LjA5NTYgMTMuMTI5NSA4LjkzOTM1IDEyLjkyODYgOC45MzkzNUg1LjA3MTQ1QzQuODcwNTUgOC45MzkzNSA0LjcxNDMgOS4wOTU2IDQuNzE0MyA5LjI5NjQ5Wk0xMi45Mjg2IDExLjc5NjVINS4wNzE0NUM0Ljg3MDU1IDExLjc5NjUgNC43MTQzIDExLjk1MjcgNC43MTQzIDEyLjE1MzZWMTIuODY3OUM0LjcxNDMgMTMuMDY4OCA0Ljg3MDU1IDEzLjIyNTEgNS4wNzE0NSAxMy4yMjUxSDEyLjkyODZDMTMuMTI5NSAxMy4yMjUxIDEzLjI4NTcgMTMuMDY4OCAxMy4yODU3IDEyLjg2NzlWMTIuMTUzNkMxMy4yODU3IDExLjk1MjcgMTMuMTI5NSAxMS43OTY1IDEyLjkyODYgMTEuNzk2NVpNMTIuOTI4NiAxNC42NTM2SDUuMDcxNDVDNC44NzA1NSAxNC42NTM2IDQuNzE0MyAxNC44MDk5IDQuNzE0MyAxNS4wMTA4VjE1LjcyNTFDNC43MTQzIDE1LjkyNiA0Ljg3MDU1IDE2LjA4MjIgNS4wNzE0NSAxNi4wODIySDEyLjkyODZDMTMuMTI5NSAxNi4wODIyIDEzLjI4NTcgMTUuOTI2IDEzLjI4NTcgMTUuNzI1MVYxNS4wMTA4QzEzLjI4NTcgMTQuODA5OSAxMy4xMjk1IDE0LjY1MzYgMTIuOTI4NiAxNC42NTM2WiIgZmlsbD0iIzI3MjczMyIvPgo8L3N2Zz4K" alt="" class="form__input-upload-image">
-            <p class="form__input-upload-text">Прикрепить файл</p>
+          <label class="input input-upload" for="input-upload">
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMjEiIHZpZXdCb3g9IjAgMCAxOCAyMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE2LjgxMjUgNC42MDg5OUwxMy4zMzA0IDEuMTI2ODVDMTIuOTE3NCAwLjcxMzkwMiAxMi4wOTE1IDAuMzY3OTIgMTEuNSAwLjM2NzkySDEuNTAwMDJDMC45MDg1IDAuMzY3OTIgMC40Mjg1ODkgMC44NDc4MzEgMC40Mjg1ODkgMS40MzkzNVYxOS4yOTY1QzAuNDI4NTg5IDE5Ljg4OCAwLjkwODUgMjAuMzY3OSAxLjUwMDAyIDIwLjM2NzlIMTYuNUMxNy4wOTE1IDIwLjM2NzkgMTcuNTcxNCAxOS44ODggMTcuNTcxNCAxOS4yOTY1VjYuNDM5MzVDMTcuNTcxNCA1Ljg0NzgzIDE3LjIyNTUgNS4wMjE5NCAxNi44MTI1IDQuNjA4OTlaTTExLjg1NzIgMS44ODU3OEMxMi4wNDY5IDEuOTUyNzQgMTIuMjM2NiAyLjA1MzE5IDEyLjMxNDggMi4xMzEzMUwxNS44MDgxIDUuNjI0NjJDMTUuODg2MiA1LjcwMjc0IDE1Ljk4NjYgNS44OTI0NyAxNi4wNTM2IDYuMDgyMjFIMTEuODU3MlYxLjg4NTc4Wk0xNi4xNDI5IDE4LjkzOTRIMS44NTcxNlYxLjc5NjQ5SDEwLjQyODZWNi40MzkzNUMxMC40Mjg2IDcuMDMwODcgMTAuOTA4NSA3LjUxMDc4IDExLjUgNy41MTA3OEgxNi4xNDI5VjE4LjkzOTRaTTQuNzE0MyA5LjI5NjQ5VjEwLjAxMDhDNC43MTQzIDEwLjIxMTcgNC44NzA1NSAxMC4zNjc5IDUuMDcxNDUgMTAuMzY3OUgxMi45Mjg2QzEzLjEyOTUgMTAuMzY3OSAxMy4yODU3IDEwLjIxMTcgMTMuMjg1NyAxMC4wMTA4VjkuMjk2NDlDMTMuMjg1NyA5LjA5NTYgMTMuMTI5NSA4LjkzOTM1IDEyLjkyODYgOC45MzkzNUg1LjA3MTQ1QzQuODcwNTUgOC45MzkzNSA0LjcxNDMgOS4wOTU2IDQuNzE0MyA5LjI5NjQ5Wk0xMi45Mjg2IDExLjc5NjVINS4wNzE0NUM0Ljg3MDU1IDExLjc5NjUgNC43MTQzIDExLjk1MjcgNC43MTQzIDEyLjE1MzZWMTIuODY3OUM0LjcxNDMgMTMuMDY4OCA0Ljg3MDU1IDEzLjIyNTEgNS4wNzE0NSAxMy4yMjUxSDEyLjkyODZDMTMuMTI5NSAxMy4yMjUxIDEzLjI4NTcgMTMuMDY4OCAxMy4yODU3IDEyLjg2NzlWMTIuMTUzNkMxMy4yODU3IDExLjk1MjcgMTMuMTI5NSAxMS43OTY1IDEyLjkyODYgMTEuNzk2NVpNMTIuOTI4NiAxNC42NTM2SDUuMDcxNDVDNC44NzA1NSAxNC42NTM2IDQuNzE0MyAxNC44MDk5IDQuNzE0MyAxNS4wMTA4VjE1LjcyNTFDNC43MTQzIDE1LjkyNiA0Ljg3MDU1IDE2LjA4MjIgNS4wNzE0NSAxNi4wODIySDEyLjkyODZDMTMuMTI5NSAxNi4wODIyIDEzLjI4NTcgMTUuOTI2IDEzLjI4NTcgMTUuNzI1MVYxNS4wMTA4QzEzLjI4NTcgMTQuODA5OSAxMy4xMjk1IDE0LjY1MzYgMTIuOTI4NiAxNC42NTM2WiIgZmlsbD0iIzI3MjczMyIvPgo8L3N2Zz4K" alt=""
+              class="input-upload__image">
+            <p class="input-upload__text">Прикрепить файл</p>
           </label>
 
         </div>

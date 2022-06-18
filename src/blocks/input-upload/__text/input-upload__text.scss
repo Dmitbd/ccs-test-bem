@@ -1,0 +1,16 @@
+.input-upload__text {
+  margin: auto 0 auto;
+  font-size: 1.12rem;
+}
+
+@media (max-width:768px) {
+  .input-upload__text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width:480px) {
+  .input-upload__text {
+    font-size: 0.8rem;
+  }
+}

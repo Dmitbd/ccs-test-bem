@@ -1,22 +1,13 @@
 import './index.scss'
+import '../blocks/input-upload/input-upload.js'
+import '../blocks/input-range/input-range.js'
 
 import Item from '../components/Item';
 import Section from '../components/Section';
 
-const dropDownButton = document.querySelector('.form__input-drop-down')
-const dropDownElements = document.querySelector('.form__input-drop-down-elements')
 
-const inputRange = document.getElementById('input-range')
-const inputRangeProcent = document.querySelector('.form__input-range-procent')
-
-const uploadInputFile = document.querySelector('#input-upload')
-const uploadButtonText = document.querySelector('.form__input-upload-text')
-
-// инпут ползунок
-inputRangeProcent.innerHTML = inputRange.value + ' %'
-inputRange.oninput = function () {
-  inputRangeProcent.innerHTML = this.value + ' %'
-}
+const dropDownButton = document.querySelector('.input-drop-down')
+const dropDownElements = document.querySelector('.input-drop-down__elements')
 
 const items = ["Sed ut perspiciatis", "Nemo enim ipsam", "Et harum quidem", "Temporibus autem", "Itaque earum rerum", "Sed ut perspiciatis", "Nemo enim ipsam", "Et harum quidem", "Temporibus autem", "Itaque earum rerum"];
 
@@ -40,38 +31,24 @@ itemRenderer(items);
 const cardListSection = new Section({
   items,
   renderer: itemRenderer
-}, '.form__input-drop-down-elements');
+}, '.input-drop-down__elements');
 
 cardListSection.renderer();
 
 // выпадающее меню
 const openDropDownContainer = (e) => {
   e.preventDefault()
-  dropDownButton.classList.add('form__input-drop-down_dark')
-  dropDownButton.classList.remove('form__input')
-  dropDownElements.classList.add('form__input-drop-down-elements_opened')
+  dropDownButton.classList.add('input-drop-down_dark')
+  dropDownButton.classList.remove('input')
+  dropDownElements.classList.add('input-drop-down__elements_opened')
 }
 
 const closeDropDownContainer = () => {
-  dropDownButton.classList.remove('form__input-drop-down_dark')
-  dropDownButton.classList.add('form__input')
-  dropDownElements.classList.remove('form__input-drop-down-elements_opened')
-}
-// инпут загрузки файлов
-const uploadButtonChange = () => {
-  uploadInputFile.value ? uploadButtonText.textContent = 'Файл загружен' : uploadButtonText.textContent = 'Прикрепите файл';
+  dropDownButton.classList.remove('input-drop-down_dark')
+  dropDownButton.classList.add('input')
+  dropDownElements.classList.remove('input-drop-down__elements_opened')
 }
 
 //слушатели выпадающего меню
 dropDownButton.addEventListener('click', (openDropDownContainer))
 dropDownButton.removeEventListener('click', (closeDropDownContainer))
-
-// слушатели загрузки файла
-uploadInputFile.addEventListener('change', (e) => {
-  uploadButtonChange()
-})
-uploadInputFile.removeEventListener('change', (e) => {
-  uploadButtonChange()
-})
-
-
