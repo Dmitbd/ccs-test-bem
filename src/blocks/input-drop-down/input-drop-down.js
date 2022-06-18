@@ -41,7 +41,7 @@ const openDropDownContainer = (e) => {
 }
 
 const closeDropDownContainer = () => {
-  dropDownButton.classList.remove('input-drop-down_')
+  dropDownButton.classList.remove('input-drop-down_opened')
   dropDownButton.classList.add('input')
   dropDownElements.classList.remove('input-drop-down__elements_opened')
 }
