@@ -1,17 +1,13 @@
 .footer__group-links-container {
   display: flex;
   border-left: 1px solid $color-gray;
-}
 
-@media (max-width:1024px) {
-  .footer__group-links-container {
+  @media (max-width:$screen-lg) {
     margin: auto auto 0.6rem;
     border-left: transparent;
   }
-}
 
-@media (max-width:480px) {
-  .footer__group-links-container {
+  @media (max-width:$screen-sm) {
     flex-wrap: wrap;
     justify-content: center;
   }

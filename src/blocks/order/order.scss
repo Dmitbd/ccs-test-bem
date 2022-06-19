@@ -12,22 +12,16 @@
   span {
     color: $color-blue;
   }
-}
 
-@media (max-width:1280px) {
-  .order {
+  @media (max-width:$screen-xl) {
     padding: 10rem 0;
   }
-}
 
-@media (max-width:768px) {
-  .order {
+  @media (max-width:$screen-md) {
     padding: 10rem 0 5rem;
   }
-}
 
-@media (max-width:480px) {
-  .order {
+  @media (max-width:$screen-sm) {
     padding: 10rem 0 2.5rem;
     display: flex;
   }

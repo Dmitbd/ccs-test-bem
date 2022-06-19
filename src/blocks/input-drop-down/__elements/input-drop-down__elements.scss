@@ -6,10 +6,11 @@
   z-index: 1;
   overflow-y: auto;
   max-height: 12em;
-  border: 1px solid $color-input-drop-down-opened;
+  border: 1px solid $color-dark-gray;
   visibility: hidden;
   margin-top: 3.6rem;
   margin-left: 0.8rem;
+  font-size: $font-size--input;
 
   &::-webkit-scrollbar {
     width: 0.31rem;
@@ -18,28 +19,21 @@
   &::-webkit-scrollbar-thumb {
     background: #3E9CDC;
   }
-}
 
-@media (max-width:1024px) {
-  .input-drop-down__elements {
+  @media (max-width:$screen-lg) {
     width: 19.7rem;
     margin-left: 0.8rem;
-    font-size: 1rem;
+    font-size: $font-size--input-medium;
     margin-top: 3rem;
   }
-}
 
-@media (max-width:768px) {
-  .input-drop-down__elements {
+  @media (max-width:$screen-md) {
     width: 17.2rem;
     margin-left: 0rem;
   }
-}
 
-@media (max-width:480px) {
-  .input-drop-down__elements {
+  @media (max-width:$screen-sm) {
     width: 17.2rem;
-    font-size: 0.8rem;
     height: 8rem;
   }
 }

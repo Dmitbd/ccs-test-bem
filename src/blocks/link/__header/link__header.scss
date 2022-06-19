@@ -4,10 +4,8 @@
   &:last-child {
     margin-right: 0rem;
   }
-}
 
-@media (max-width:768px) {
-  .link__header {
+  @media (max-width:$screen-md) {
     &:last-child {
       margin-right: auto;
     }

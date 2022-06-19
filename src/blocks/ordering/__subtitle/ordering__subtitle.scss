@@ -1,23 +1,18 @@
 .ordering__subtitle {
   text-align: center;
-  font-size: 1.1rem;
+  font-size: $font-size--subtitle;
   line-height: 1rem;
   margin: 1.8rem auto 0 auto;
   color: $color-gray;
-}
 
-@media (max-width:768px) {
-  .ordering__subtitle {
-    font-size: 0.9rem;
+  @media (max-width:$screen-md) {
+    font-size: $font-size--subtitle-medium;
     line-height: 1rem;
     max-width: 23rem;
   }
-}
 
-@media (max-width:480px) {
-  .ordering__subtitle {
+  @media (max-width:$screen-sm) {
     margin-top: 0.5rem;
-    font-size: 0.8rem;
     max-width: 16rem;
   }
 }

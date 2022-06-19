@@ -3,10 +3,8 @@
   height: 3.4rem;
   margin: auto;
   text-align: center;
-}
 
-@media (max-width:1024px) {
-  .ordering__element-image {
+  @media (max-width:$screen-lg) {
     width: 2.5rem;
     height: 2.5rem;
   }

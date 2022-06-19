@@ -1,18 +1,14 @@
 .ordering__element-bond {
   position: absolute;
   margin: -3.2rem auto auto 10.6rem;
-}
 
-@media (max-width:1280px) {
-  .ordering__element-bond {
+  @media (max-width:$screen-xl) {
     margin-left: 8.6rem;
     margin-top: -2.7rem;
     width: 5rem;
   }
-}
 
-@media (max-width:1024px) {
-  .ordering__element-bond {
+  @media (max-width:$screen-lg) {
     visibility: hidden;
   }
 }

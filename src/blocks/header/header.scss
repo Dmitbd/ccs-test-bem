@@ -1,5 +1,5 @@
 .header {
-  all:inherit;
+  all: inherit;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -7,16 +7,12 @@
   position: fixed;
   z-index: 1;
   background: $color-main-rtansparent;
-}
 
-@media (max-width:1280px) {
-  .header {
+  @media (max-width:$screen-xl) {
     padding: 1.5rem 0;
   }
-}
 
-@media (max-width:768px) {
-  .header {
+  @media (max-width:$screen-lg) {
     padding: 0.7rem 0 1rem;
   }
 }

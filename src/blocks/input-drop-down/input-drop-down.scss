@@ -19,10 +19,7 @@
     color: $color-main-dark;
   }
 
-}
-
-@media (max-width:1024px) {
-  .input-drop-down {
-    background-position: right 0.8rem top 0.5rem;
+  @media (max-width:$screen-lg) {
+      background-position: right 0.8rem top 0.5rem;
   }
 }

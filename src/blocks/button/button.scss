@@ -4,7 +4,7 @@
   margin: auto;
   width: 11.4rem;
   height: 2.6rem;
-  font-size: 0.8rem;
+  font-size: $font-size--button;
   line-height: 0.9rem;
   background-color: $color-white;
   border: 1px solid $color-gray;
@@ -13,16 +13,12 @@
     cursor: pointer;
     border: 1px solid $color-blue;
   }
-}
 
-@media (max-width:1024px) {
-  .button {
+  @media (max-width:$screen-lg) {
     height: 2rem;
   }
-}
 
-@media (max-width:480px) {
-  .button {
+  @media (max-width:$screen-sm) {
     width: 17rem;
     margin-bottom: 1rem;
 

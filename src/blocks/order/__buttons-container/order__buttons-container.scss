@@ -1,19 +1,14 @@
 .order__buttons-container {
   margin-top: 5rem;
-}
 
-@media (max-width:768px) {
-  .order__buttons-container {
+  @media (max-width:$screen-md) {
     display: flex;
     justify-content: center;
   }
-}
 
-@media (max-width:480px) {
-  .order__buttons-container {
+  @media (max-width:$screen-sm) {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 }
-

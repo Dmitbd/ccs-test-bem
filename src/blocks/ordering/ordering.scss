@@ -6,16 +6,12 @@
   span {
     color: $color-blue;
   }
-}
 
-@media (max-width:1024px) {
-  .ordering {
+  @media (max-width:$screen-lg) {
     padding: 5rem 0 7rem;
   }
-}
 
-@media (max-width:480px) {
-  .ordering {
+  @media (max-width:$screen-sm) {
     padding: 3rem 0 5rem;
   }
 }

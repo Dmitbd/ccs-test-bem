@@ -1,21 +1,18 @@
 .ordering__title {
   text-align: center;
-  font-size: 2.35rem;
-  line-height: 2.7rem;
+  font-size: $font-size--h2;
+  line-height: $line-height--h2;
   margin: 0 auto;
-}
 
-@media (max-width:768px) {
-  .ordering__title {
-    font-size: 2rem;
-    line-height: 2rem;
+  @media (max-width:$screen-lg) {
+    font-size: $font-size--h2-medium;
+    line-height: $line-height--h2-medium;
   }
-}
 
-@media (max-width:480px) {
-  .ordering__title {
+  @media (max-width:$screen-md) {
     max-width: 16rem;
-    font-size: 1.7rem;
-    line-height: 2rem;
+    font-size: $font-size--h2-small;
+    line-height: $line-height--h2-small;
   }
+
 }

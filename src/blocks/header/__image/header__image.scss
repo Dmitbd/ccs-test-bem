@@ -1,10 +1,8 @@
 .header__image {
   width: 15.73rem;
   height: 2.18rem;
-}
 
-@media (max-width:768px) {
-  .header__image {
+  @media (max-width:$screen-md) {
     margin: auto;
   }
 }

@@ -1,33 +1,21 @@
 .order__title {
-  font-size: 3rem;
-  line-height: 3.6rem;
+  font-size: $font-size--h1;
+  line-height: $line-height--h1;
   margin: 0;
-}
 
-@media (max-width:1280px) {
-  .order__title {
-    font-size: 2.5rem;
-    line-height: 3.1rem;
-  }
-}
-
-@media (max-width:1024px) {
-  .order__title {
+  @media (max-width:$screen-lg) {
     max-width: 35rem;
+    line-height: $line-height--h1-medium;
+    font-size: $font-size--h1-medium;
   }
-}
 
-@media (max-width:768px) {
-  .order__title {
+  @media (max-width:$screen-md) {
     max-width: 30rem;
-    font-size: 2.2rem;
-    line-height: 2.5rem;
+    line-height: $line-height--h1-small;
   }
-}
 
-@media (max-width:480px) {
-  .order__title {
-    font-size: 1.7rem;
+  @media (max-width:$screen-sm) {
+    font-size: $font-size--h1-small;
     line-height: 2.1rem;
   }
 }

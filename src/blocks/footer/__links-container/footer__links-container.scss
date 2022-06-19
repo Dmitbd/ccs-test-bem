@@ -2,10 +2,8 @@
   font-size: 0.8rem;
   display: flex;
   justify-content: center;
-}
 
-@media (max-width:1024px) {
-  .footer__links-container {
+  @media (max-width:$screen-lg) {
     flex-direction: column;
   }
 }

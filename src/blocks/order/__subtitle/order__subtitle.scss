@@ -1,7 +1,7 @@
 .order__subtitle {
   margin: 2.5rem 0 0 0;
   padding: 0;
-  font-size: 1.25rem;
+  font-size: $font-size--subtitle;
   line-height: 2.25rem;
   font-weight: bold;
 
@@ -15,19 +15,15 @@
       margin: 0 0.3rem;
     }
   }
-}
 
-@media (max-width:1280px) {
-  .order__subtitle {
-    font-size: 1rem;
+  @media (max-width:$screen-lg) {
+    font-size: $font-size--subtitle-medium;
     line-height: 1.7rem;
   }
-}
 
-@media (max-width:480px) {
-  .order__subtitle {
+  @media (max-width:$screen-sm) {
     margin-top: 1rem;
-    font-size: 0.9rem;
     line-height: 1.3rem;
   }
+
 }

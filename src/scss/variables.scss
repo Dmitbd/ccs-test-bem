@@ -2,10 +2,43 @@ $color-blue: #3E9CDC;
 $color-dark-blue: #286690;
 $color-white: #ffffff;
 $color-gray: #C4C4C4;
+$color-dark-gray: #3D4050;
 
 $color-main-dark: #272733;
 $color-main-rtansparent: rgba(16, 16, 29, 0.9);
 
 $color-gray-input: rgba(255, 255, 255, 0.85);
 
-$color-input-drop-down-opened: #3D4050;
+$font-size--h1: 3rem;
+$font-size--h1-medium: $font-size--h1 * 0.8;
+$font-size--h1-small: $font-size--h1 * 0.6;
+
+$line-height--h1: 3.6rem;
+$line-height--h1-medium: $line-height--h1 * 0.8;
+$line-height--h1-small: $line-height--h1 * 0.7;
+
+$font-size--h2: 2.25rem;
+$font-size--h2-medium: $font-size--h2 * 0.8;
+$font-size--h2-small: $font-size--h2 * 0.6;
+
+$line-height--h2: 2.7rem;
+$line-height--h2-medium: $line-height--h1 * 0.8;
+$line-height--h2-small: $line-height--h1 * 0.7;
+
+$font-size--subtitle: 1.25rem;
+$font-size--subtitle-medium: 1rem;
+
+$font-size--link: 0.8rem;
+
+$font-size--button: 0.8rem;
+
+$font-size--input: 1.12rem;
+$font-size--input-medium: 0.8rem;
+
+$font-size--ordering-element: 1rem;
+$font-size--ordering-element-medium: 0.8rem;
+
+$screen-sm: 480px;
+$screen-md: 768px;
+$screen-lg: 1024px;
+$screen-xl: 1280px;

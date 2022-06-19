@@ -4,22 +4,16 @@
   justify-content: flex-start;
   width: 74.3rem;
   margin: auto;
-}
 
-@media (max-width:1280px) {
-  .form__inputs-container {
+  @media (max-width:$screen-xl) {
     width: 49.5rem;
   }
-}
 
-@media (max-width:1024px) {
-  .form__inputs-container {
+  @media (max-width:$screen-lg) {
     width: 43rem;
   }
-}
 
-@media (max-width:768px) {
-  .form__inputs-container {
+  @media (max-width:$screen-md) {
     width: 19rem;
     justify-content: center;
   }

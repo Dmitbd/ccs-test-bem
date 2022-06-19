@@ -1,29 +1,24 @@
 .input-drop-down_opened {
-  background-color: $color-input-drop-down-opened;
+  background-color: $color-dark-gray;
   background-image: url(/src/blocks/input-drop-down/images/drop-down-opened.svg);
   color: $color-white;
-  border: 1px solid $color-input-drop-down-opened;
+  border: 1px solid $color-dark-gray;
   border-radius: 3px;
   width: 22.3rem;
   height: 2.6rem;
-  font-size: 1.12rem;
+  font-size: $font-size--input;
   padding-left: 0.6rem;
   margin: 0.8rem;
-}
 
-@media (max-width:1024px) {
-  .input-drop-down_opened {
+  @media (max-width:$screen-lg) {
     height: 2rem;
     width: 19rem;
     margin-left: 0.8rem;
-    font-size: 1rem;
+    font-size: $font-size--input-medium;
   }
-}
 
-@media (max-width:480px) {
-  .input-drop-down_opened {
+  @media (max-width:$screen-sm) {
     width: 16.6rem;
     margin-left: 0.8rem;
-    font-size: 0.8rem;
   }
 }

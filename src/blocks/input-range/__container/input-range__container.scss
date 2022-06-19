@@ -25,16 +25,12 @@
   &::-moz-placeholder {
     color: $color-main-dark;
   }
-}
 
-@media (max-width:1024px) {
-  .input-range__container {
+  @media (max-width:$screen-lg) {
     width: 20rem;
   }
-}
 
-@media (max-width:768px) {
-  .input-range__container {
+  @media (max-width:$screen-md) {
     width: 16rem;
     height: 4rem;
   }

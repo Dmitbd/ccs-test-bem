@@ -1,10 +1,8 @@
 .footer__copyright {
   margin-right: 2rem;
   text-align: center;
-}
 
-@media (max-width:1024px) {
-  .footer__copyright {
+  @media (max-width:$screen-lg) {
     margin-right: 0.5rem;
   }
 }
