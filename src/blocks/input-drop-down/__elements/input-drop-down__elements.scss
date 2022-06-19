@@ -1,12 +1,12 @@
 .input-drop-down__elements {
   position: absolute;
   width: 23.1rem;
-  background-color: #272733;
-  color: #fff;
+  background-color: $color-main-dark;
+  color: $color-white;
   z-index: 1;
   overflow-y: auto;
   max-height: 12em;
-  border: 1px solid #3D4050;
+  border: 1px solid $color-input-drop-down-opened;
   visibility: hidden;
   margin-top: 3.6rem;
   margin-left: 0.8rem;

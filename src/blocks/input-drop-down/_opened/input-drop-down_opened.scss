@@ -1,8 +1,8 @@
 .input-drop-down_opened {
-  background-color: #3D4050;
+  background-color: $color-input-drop-down-opened;
   background-image: url(/src/blocks/input-drop-down/images/drop-down-opened.svg);
-  color: #ffffff;
-  border: 1px solid #3D4050;
+  color: $color-white;
+  border: 1px solid $color-input-drop-down-opened;
   border-radius: 3px;
   width: 22.3rem;
   height: 2.6rem;

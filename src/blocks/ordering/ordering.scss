@@ -1,10 +1,10 @@
 .ordering {
-  color: #ffff;
+  color: $color-white;
   background-image: url('/src/blocks/ordering/images/BG.png');
   padding: 7.5rem 0 9.3rem;
 
   span {
-    color: #3E9CDC;
+    color: $color-blue;
   }
 }
 

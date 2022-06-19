@@ -2,11 +2,11 @@
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #FFFFFF;
+  color: $color-white;
   margin: auto 3.75rem 0.2rem 0;
 
   &:hover {
-    color: #43ABF0;
+    color: $color-blue;
   }
 
   &:last-child {

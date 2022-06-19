@@ -1,10 +1,10 @@
 .button_blue {
-  background-color: #3E9CDC;
-  border: 1px solid #ffffff;
-  color: #ffffff;
+  background-color: $color-blue;
+  border: 1px solid $color-white;
+  color: $color-white;
 
   &:hover {
     cursor: pointer;
-    border: 1px solid #3E9CDC;
+    border: 1px solid $color-blue;
   }
 }

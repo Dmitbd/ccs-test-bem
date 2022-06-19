@@ -3,3 +3,11 @@
     margin-right: 1.8rem;
   }
 }
+
+@media (max-width:480px) {
+  .button_first-child-margin {
+    &:first-child {
+      margin-right: auto;
+    }
+  }
+}

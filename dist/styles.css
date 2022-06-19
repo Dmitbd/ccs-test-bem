@@ -463,11 +463,11 @@ template {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 0.8rem;
-  color: #FFFFFF;
+  color: #ffffff;
   margin: auto 3.75rem 0.2rem 0;
 }
 .header__link:hover {
-  color: #43ABF0;
+  color: #3E9CDC;
 }
 .header__link:last-child {
   margin-right: 0rem;
@@ -633,7 +633,7 @@ template {
   height: 2.6rem;
   font-size: 0.8rem;
   line-height: 0.9rem;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   border: 1px solid #C4C4C4;
 }
 .button:hover {
@@ -669,8 +669,13 @@ template {
   margin-right: 1.8rem;
 }
 
+@media (max-width: 480px) {
+  .button_first-child-margin:first-child {
+    margin-right: auto;
+  }
+}
 .ordering {
-  color: white;
+  color: #ffffff;
   background-image: url(fcf1a2ac7febce383623.png);
   padding: 7.5rem 0 9.3rem;
 }
@@ -713,7 +718,7 @@ template {
   font-size: 1.1rem;
   line-height: 1rem;
   margin: 1.8rem auto 0 auto;
-  color: #BBBBBB;
+  color: #C4C4C4;
 }
 
 @media (max-width: 768px) {
@@ -905,7 +910,7 @@ template {
 }
 .input {
   background-color: rgba(255, 255, 255, 0.85);
-  border: 1px solid #FFFFFF;
+  border: 1px solid #ffffff;
   border-radius: 3px;
   width: 22.3rem;
   height: 2.75rem;
@@ -1004,7 +1009,7 @@ template {
   position: absolute;
   width: 23.1rem;
   background-color: #272733;
-  color: #fff;
+  color: #ffffff;
   z-index: 1;
   overflow-y: auto;
   max-height: 12em;
@@ -1061,14 +1066,14 @@ template {
   width: 100%;
 }
 .input-range::-webkit-slider-runnable-track {
-  background: white;
+  background: #ffffff;
   height: 5px;
   border-radius: 25%;
 }
 .input-range::-webkit-slider-thumb {
-  outline: 1px solid #286690;
+  outline: 1px solid #3E9CDC;
   border-radius: 100%;
-  background: #42A9ED;
+  background: #3E9CDC;
   margin-top: -5px;
 }
 
@@ -1169,8 +1174,8 @@ template {
   }
 }
 .footer {
-  color: white;
-  background-color: #3D4050;
+  color: #ffffff;
+  background-color: #272733;
   padding: 0.8rem 0;
 }
 
@@ -1202,7 +1207,7 @@ template {
 }
 .footer__group-links-container {
   display: flex;
-  border-left: 1px solid #C3C3C3;
+  border-left: 1px solid #C4C4C4;
 }
 
 @media (max-width: 1024px) {
@@ -1238,13 +1243,13 @@ template {
   top: -0.25rem;
 }
 .footer__link:hover {
-  color: #43ABF0;
+  color: #3E9CDC;
 }
 
 .footer__link_grey {
-  color: #C3C3C3;
+  color: #C4C4C4;
 }
 
 .footer__link_white {
-  color: #fff;
+  color: #ffffff;
 }

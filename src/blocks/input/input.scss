@@ -1,6 +1,6 @@
 .input {
-  background-color: rgba(255, 255, 255, 0.85);
-  border: 1px solid #FFFFFF;
+  background-color: $color-gray-input;
+  border: 1px solid $color-white;
   border-radius: 3px;
   width: 22.3rem;
   height: 2.75rem;
@@ -9,24 +9,24 @@
   margin: 0.8rem;
 
   &:focus {
-    border: 1px solid #3E9CDC;
+    border: 1px solid $color-blue;
   }
 
   &:active {
-    border: 1px solid #3E9CDC;
+    border: 1px solid $color-blue;
   }
 
   &:hover {
     cursor: pointer;
-    border: 1px solid #3E9CDC;
+    border: 1px solid $color-blue;
   }
 
   &::-webkit-input-placeholder {
-    color: #272733;
+    color: $color-main-dark;
   }
 
   &::-moz-placeholder {
-    color: #272733;
+    color: $color-main-dark;
   }
 }
 
