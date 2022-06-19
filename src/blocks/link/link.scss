@@ -1,6 +1,5 @@
-.header__link {
+.link {
   text-decoration: none;
-  text-transform: uppercase;
   font-size: 0.8rem;
   color: $color-white;
   margin: auto 3.75rem 0.2rem 0;
@@ -8,32 +7,23 @@
   &:hover {
     color: $color-blue;
   }
-
-  &:last-child {
-    margin-right: 0rem;
-  }
 }
 
 @media (max-width:1024px) {
-  .header__link {
+  .link {
     margin-right: 1.3rem;
     font-size: 0.7rem;
   }
 }
 
 @media (max-width:768px) {
-  .header__link {
-    flex-direction: column;
+  .link {
     margin: auto;
-
-    &:last-child {
-      margin-right: auto;
-    }
   }
 }
 
 @media (max-width:480px) {
-  .header__link {
+  .link {
     font-size: 0.6rem;
   }
 }

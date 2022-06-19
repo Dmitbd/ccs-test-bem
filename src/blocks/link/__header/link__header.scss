@@ -1,0 +1,15 @@
+.link__header {
+  text-transform: uppercase;
+
+  &:last-child {
+    margin-right: 0rem;
+  }
+}
+
+@media (max-width:768px) {
+  .link__header {
+    &:last-child {
+      margin-right: auto;
+    }
+  }
+}

@@ -10,8 +10,10 @@
 @import '../blocks/header/__sticky-container/header__sticky-container.scss';
 @import '../blocks/header/__image/header__image.scss';
 @import '../blocks/header/__navigate/header__navigate.scss';
-@import '../blocks/header/__link/header__link.scss';
-@import '../blocks/header/__link/_active/header__link_active.scss';
+
+@import '../blocks/link/link.scss';
+@import '../blocks/link/__header/link__header.scss';
+@import '../blocks/link/_active/link_active.scss';
 
 @import '../blocks/order/order.scss';
 @import '../blocks/order/__information/order__information.scss';
@@ -68,3 +70,6 @@
 @import '../blocks/footer/__link/footer__link.scss';
 @import '../blocks/footer/__link/_grey/footer__link_grey.scss';
 @import '../blocks/footer/__link/_white/footer__link_white.scss';
+
+@import '../blocks/link/__footer/link__footer.scss';
+@import '../blocks/link/__footer/_gray/link__footer_gray.scss';

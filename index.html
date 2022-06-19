@@ -13,12 +13,12 @@
 
   <header class="header">
     <div class="header__sticky-container">
-      <img class="header__image" src="./src/blocks/header/header-logo.svg" alt="компания loremipsom.net">
+      <img class="header__image" src="<%=require('./blocks/header/header-logo.svg')%>" alt="компания loremipsom.net">
       <nav class="header__navigate">
-        <a href="#" class="header__link header__link_active">бизнес</a>
-        <a href="#" class="header__link">о нас</a>
-        <a href="#" class="header__link">цены</a>
-        <a href="#" class="header__link">оформить заказ</a>
+        <a href="#" class="link link__header link_active">бизнес</a>
+        <a href="#" class="link link__header">о нас</a>
+        <a href="#" class="link link__header">цены</a>
+        <a href="#" class="link link__header">оформить заказ</a>
       </nav>
     </div>
   </header>
@@ -136,18 +136,19 @@
       <div class="footer__group-links-container">
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/qiwi.svg" alt="Qiwi wallet">
-          <a class="footer__link footer__link_grey" href="#">Qiwi wallet</a>
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/qiwi.svg')%>" alt="Qiwi wallet">
+          <a class="link link__footer link__footer_gray" href="#">Qiwi wallet</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/yandex-money.svg" alt="Yandex Money">
-          <a class="footer__link footer__link_grey" href="#">Yandex Money</a>
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/yandex-money.svg')%>"
+            alt="Yandex Money">
+          <a class="link link__footer link__footer_gray" href="#">Yandex Money</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/web-money.svg" alt="Web Money">
-          <a class="footer__link footer__link_grey" href="#">Web Money</a>
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/web-money.svg')%>" alt="Web Money">
+          <a class="link link__footer link__footer_gray" href="#">Web Money</a>
         </div>
 
       </div>
@@ -155,13 +156,13 @@
       <div class="footer__group-links-container">
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/mail.svg" alt="email">
-          <a class="footer__link footer__link_white" href="#">info@ipsum228.com</a>
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/mail.svg')%>" alt="info@ipsum228.com">
+          <a class="link link__footer" href="#">info@ipsum228.com</a>
         </div>
 
         <div class="footer__link-container">
-          <img class="footer__link-image" src="./src/blocks/footer/images/vk.svg" alt="Мы вконтакте">
-          <a class="footer__link footer__link_white" href="#">Мы вконтакте</a>
+          <img class="footer__link-image" src="<%=require('./blocks/footer/images/vk.svg')%>" alt="Мы вконтакте">
+          <a class="link link__footer" href="#">Мы вконтакте</a>
         </div>
 
       </div>
